@@ -34,8 +34,8 @@ jobs:
         run: npx playwright install chrome
 
       # Step 5: Run Playwright tests
-      - name: Run Playwright tests
-        run: npx playwright test
+      - name: Run Playwright tests only in Chrome
+        run: npx playwright test --browser=chromium
 
       # Step 6: Upload test results as an artifact (optional)
       - name: Upload test results
