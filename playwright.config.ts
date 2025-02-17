@@ -36,7 +36,9 @@ export default defineConfig({
   projects: [
     {
       name: 'Chrome',
-      use: { browserName: 'chromium' }, // Use Chromium (Chrome)
+      use: { 
+        browserName: 'chromium', // Use Chromium (Chrome)
+      },
     },
 
     // {

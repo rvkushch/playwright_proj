@@ -31,7 +31,7 @@ jobs:
 
       # Step 4: Install Playwright browsers
       - name: Install Only Chrome browser
-        run: npx playwright install chrome
+        run: npx playwright install chromium
 
       # Step 5: Run Playwright tests (only in Chrome because it is configured in pw.config.js file on projects line)
       - name: Run Playwright tests
