@@ -1,25 +1,25 @@
-#This project is a Playwright-based automation framework designed for end-to-end (E2E) testing of web applications. It includes support for TypeScript, ESLint, Fixtures, Page Object Model (POM), and CI/CD integration using GitHub Actions.
+#This project is a Playwright-based automation framework designed for end-to-end (E2E) testing of web applications. It includes support for TypeScript, ESLint, Fixtures, Page Object Model (POM), and CI/CD integration using GitHub Actions.#
 
-#Features
-##TypeScript Support: Write tests with type safety and modern JavaScript features.
+##Features##
+##TypeScript Support: Write tests with type safety and modern JavaScript features.##
 
-##ESLint Integration: Enforce coding standards and catch potential errors.
+##ESLint Integration: Enforce coding standards and catch potential errors.##
 
-##Fixtures: Reusable test logic and setup/teardown steps.
+##Fixtures: Reusable test logic and setup/teardown steps.##
 
-##Page Object Model (POM): Encapsulate page-specific logic for maintainable tests.
+##Page Object Model (POM): Encapsulate page-specific logic for maintainable tests.##
 
-##CI/CD Integration: Automate testing with GitHub Actions.
+##CI/CD Integration: Automate testing with GitHub Actions.##
 
-##Cross-Browser Testing: Run tests on Chromium, Firefox, and WebKit.
+##Cross-Browser Testing: Run tests on Chromium, Firefox, and WebKit.##
 
-#Getting Started
-##Prerequisites
+#Getting Started##
+##Prerequisites##
 Node.js: Ensure Node.js (v18 or higher) is installed.
 
 Playwright: Install Playwright and its dependencies.
 
-##Installation
+##Installation##
 ```
 Clone the repository:
 git clone https://github.com/your-username/my-playwright-project.git
@@ -50,25 +50,25 @@ Fix ESLint Issues
 npm run lint:fix
 ```
 
-##CI/CD Integration
+##CI/CD Integration##
 The project includes a GitHub Actions workflow (.github/workflows/ci.yml) to automate:
 
-##Linting: Run ESLint on every push or pull request.
+##Linting: Run ESLint on every push or pull request.##
 
-##Testing: Run Playwright tests on multiple browsers.
+##Testing: Run Playwright tests on multiple browsers.##
 
-##Artifacts: Upload test results and HTML reports.
+##Artifacts: Upload test results and HTML reports.##
 
-##Page Object Model (POM)
+##Page Object Model (POM)##
 The project uses the Page Object Model to encapsulate page-specific logic. Each page (e.g., login-page.ts) extends a BasePage class for common functionality.
 
-##Fixtures
+##Fixtures##
 Custom fixtures are defined in src/fixtures/ to reuse test logic and setup/teardown steps.
 
-##Contributing
+##Contributing##
 Fork the repository.
 
-##Create a new branch:
+##Create a new branch:##
 
 bash
 Copy
@@ -76,7 +76,7 @@ Copy
 git checkout -b feature/your-feature-name
 ```
 
-##Commit your changes:
+##Commit your changes:##
 
 bash
 Copy
@@ -84,7 +84,7 @@ Copy
 git commit -m "Add your feature"
 ```
 
-##Push to the branch:
+##Push to the branch:##
 
 bash
 Copy
@@ -92,7 +92,7 @@ Copy
 git push origin feature/your-feature-name
 ```
 
-##Open a pull request.
+##Open a pull request.##
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
