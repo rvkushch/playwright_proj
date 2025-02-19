@@ -9,19 +9,14 @@
     "test:webkit": "playwright test --project=WebKit",
     "test:headed": "HEADLESS=false playwright test",
     "test:debug": "playwright test --debug",
-    
     "test:report": "playwright test && playwright show-report",
-    
     "test:smoke": "playwright test --grep @smoke",
     "test:example": "playwright test tests/example.spec.js",
-    
     "install-browsers": "playwright install",
     "install-chrome": "playwright install chromium",
     "show-report": "playwright show-report",
-  
-    "lint": "eslint .", 
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix"
-  
   },
   "keywords": [],
   "author": "",
@@ -34,6 +29,7 @@
     "@types/node": "^22.10.10",
     "@typescript-eslint/eslint-plugin": "^8.24.1",
     "@typescript-eslint/parser": "^8.24.1",
+    "dotenv": "^16.4.7",
     "eslint": "^9.20.1",
     "eslint-plugin-playwright": "^2.2.0",
     "globals": "^15.15.0",
